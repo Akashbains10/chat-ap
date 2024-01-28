@@ -1,7 +1,7 @@
 const {Server} = require('socket.io')
 
 const startSocket = (server) => {
-    console.log(server);
+    const io = new Server(server)
 };
 
 module.exports = {
